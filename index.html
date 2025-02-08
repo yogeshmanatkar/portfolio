@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>JohnDoe
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Yogesh Manatkar Portfolio page.">
+    <meta name="author" content="YogeshManatkar">
+    <title>YogeshManatkar</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item">
+                    <a class="social-link text-light" href="https://www.linkedin.com/in/yogesh-manatkar-04170b204/">
+                        <i class="ti-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle">Hello, I am</h4>
+                <h1 class="header-title">Yogesh Manatkar</h1>
+                <h6 class="header-mono">Java Developer</h6>
+                <button class="btn btn-primary btn-rounded" onclick="downloadResume()">
+                    <i class="ti-printer pr-2"></i>Downlode Resume
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <script>
+        function downloadResume() {
+            const resumeLink = document.createElement('a');
+            resumeLink.href = 'assets/resume/YogeshManatkarJavaResume.pdf'; // Replace with your resume file path
+            resumeLink.download = 'Yogesh_Manatkar_Resume.pdf'; // File name when downloaded
+            resumeLink.click();
+        }
+    </script>
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/YogeshManatkarPhoto.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Mr.Yogesh Manatkar</h5>
+                        <div class="brand-subtitle">Java Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Java Developer Located In Our Lovely Earth</h5>
+                <p class="mt-20">A Java Developer with 2.9 years of experience in designing and implementing scalable software solutions, specializing in data-intensive Banking Application Development. Proficient in all phases of the SDLC, including requirements gathering, estimation, analysis, design, development, testing and deployment. Skilled in delivering high-quality solutions within the Banking and Financial Services domain.</p>
+                <button class="btn btn-outline-danger" onclick="downloadResume()">
+                    <i class="icon-down-circled2"></i> Download My CV
+                </button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Name</span> : Yogesh Manatkar </li>
+                    <li>
+                        <span>Email</span> : 
+                        <a href="mailto:yogeshmanatkar137@gmail.com">yogeshmanatkar137@gmail.com</a>
+                    </li>
+                    <li><span>Phone</span> : +91- 7218194438</li>
+                    <li><span>Birthdate</span> : 13/07/2000</li>
+                    <li><span>Address</span> : Shegaon, Maharastra- 444203</li>
+                </ul>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Current Company</span> : Capgemini</li>
+                    <li><span>Total Experience</span> : 2.9 yrs</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/yogesh-manatkar-04170b204/"><i class="ti-linkedin aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/_photography_yog_/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.naukri.com/mnjuser/profile?id=&altresid"><i class="ti-camera" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Develope Banking Application and implementation of Java/J2EE-based client and server-side enterprise applications.</h6>
+                        <p class="subtitle">Developed and deployed over 45 RESTful APIs from scratch using Java, Spring Boot, Hibernate, JPA and Hexagonal Architecture.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web Development</h6>
+                        <p class="subtitle">Contributed to multiple projects in the Financial Services Industry (FSI) domain, managed high performance, scalability and seamless integration and cutting down delivery timelines by 30% using GenAI.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Digital Marketing</h6>
+                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Professional Experience</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">Aug 2022 - Present</h6>
+                            <P><b>Capgemini | Java developer</b></P>
+                            <P class="subtitle">I Worked on the POG and TAEG projects for the BNL Bank of Italy. The POG sets the rules that banks must follow under Product Oversight Governance. The TAEG focuses on the 'Taux Annuel Effective Global' (TAEG), which identifies the cost of a loan's percentage rate, providing insights into how much the loan will cost annually, including interest and fees.</P>
+                            <hr>
+                            <h6 class="title text-danger">Jan 2022 - Apr 2022</h6>
+                            <P><b>Capgemini | Java Full-Stack Developer (Internship)</b></P>
+                            <P class="subtitle">During my Capgemini training, I worked on a project where I utilized a range of technologies, including Spring Boot, JPA, Postman, Git, SonarQube, SonarLint, Kubernetes, Jenkins, AWS, and PostgreSQL for the backend, alongside Angular for the front end.</P>
+                            <hr>
+                            <h6 class="title text-danger">Aug 2021 - Sep 2021</h6>
+                            <P><b>Web Designer (Internship)</b></P>
+                            <P class="subtitle"></P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2018-2022</h6>
+                            <P>B.E Computer Engineering</P>
+                            <P class="subtitle">Yeshwantrao Chavan College of Engineering (YCCE), Nagpur</P>
+                            <hr>
+                            <h6 class="title text-danger">2017 - 2018</h6>
+                            <P>HSC stands for Higher Secondary Certificate</P>
+                            <P class="subtitle">Sant Shri.Gajanan Maharaj English Medium School, Shegaon</P>
+                            <hr>
+                            <h6 class="title text-danger">2016 - 2017</h6>
+                            <P>SSC stands for Secondary School Certificate</P>
+                            <P class="subtitle">S. B. High School, Telhara</P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Core java &amp; Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SpringBoot</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>RESTful APIs</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PostgreSQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JUnit &amp; Mockito</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Jenkins</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Marathi</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Hindi</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">View My LinkedIn Profile</h2>
+            <a href="https://www.linkedin.com/in/yogesh-manatkar-04170b204/" target="_blank">
+                <button class="btn bg-primary w-lg">Click Here</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-2"><span class="text-danger">My</span> Work Experience</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-stack-overflow text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Develop RESTful APIs</h5>
+                            <P class="subtitle">Developed and deployed over 45 RESTful APIs from scratch using Java, Spring Boot, Hibernate, JPA and Hexagonal Architecture. Proficient in MySQL database management and Agile methodologies.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-plug text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Increase Efficiency </h5>
+                            <P class="subtitle">1.Contributed to multiple projects in the Financial Services Industry (FSI) domain, managed high performance, scalability and seamless integration and cutting down delivery timelines by 30% using GenAI.
+                                </br>2.Performed JUnit and participated to enhancements and defect resolution to improve code quality and application performance.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-eye text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Code Review</h5>
+                            <P class="subtitle">1.Participated in code reviews, successfully merged over 15 Merge Requests (MRs).
+                            </br>2.Collaborated with the Onshore team on UI testing, identifying and resolving bugs and implemented minor fixes and conducted critical analysis of change requests & solved 1000+ defects & sonar bugs.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-reload text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Full Client Support</h5>
+                            <P class="subtitle">Provided full lifecycle support to clients from requirements gathering and analysis to design, coding, test, debugging, implementation and integration.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-time text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Time Reduction</h5>
+                            <P class="subtitle">1.Reduced development time by 30% by creating a Gen AI prompt that auto-generated the Java files per API, allowing developers to focus on business logic instead of repetitive tasks.
+                            </br>2.Implemented and Optimized Batches for real-world financial operations such as daily transaction batching, ensuring efficient handling of high-volume data with zero errors.   
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-files text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Handle Banking transactions</h5>
+                            <P class="subtitle">1.Developed a Spring Batch application to extract data from PostgreSQL & generate CSV file for BNL Bank, Italy.
+                            </br>2.Optimized batch performance, processing over 3+ Lakh transactions daily, and improved performance and scalability using Java 8 features & Data Structures.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+
+
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form onsubmit="sendEmail(event)">
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" id="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary">Send via Gmail</button>
+                            </div>
+                        </form>
+                        
+                        <script>
+                            function sendEmail(event) {
+                                event.preventDefault();
+                                
+                                // Get user input values
+                                var name = document.getElementById("name").value;
+                                var email = document.getElementById("email").value;
+                                var message = document.getElementById("message").value;
+                                
+                                // Create email body
+                                var subject = "New Contact Form Submission";
+                                var body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+                        
+                                // Attempt to open Gmail app first
+                                var gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=yogeshmanatkar137@gmail.com&su=${subject}&body=${body}`;
+                        
+                                // Check if Gmail is installed using an invisible iframe (Trick to check if it loads)
+                                var iframe = document.createElement("iframe");
+                                iframe.style.display = "none";
+                                iframe.src = gmailLink;
+                        
+                                iframe.onload = function () {
+                                    // If Gmail loads, open it
+                                    window.location.href = gmailLink;
+                                };
+                        
+                                iframe.onerror = function () {
+                                    // If Gmail fails, open the default email app
+                                    var mailtoLink = `mailto:yogeshmanatkar137@gmail.com?subject=${subject}&body=${body}`;
+                                    window.location.href = mailtoLink;
+                                };
+                        
+                                document.body.appendChild(iframe);
+                        
+                                // Remove iframe after 3 seconds
+                                setTimeout(() => {
+                                    document.body.removeChild(iframe);
+                                }, 3000);
+                            }
+                        </script>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+91- 7218194438</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Shegaon, Maharastra-444203</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">yogeshmanatkar137@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="#" target="_blank"><span class="text-danger" title="">Yogesh Manatkar</span></a> 
+            </p>
+        </div>
+    </footer>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+</body>
+</html>
