@@ -11,7 +11,21 @@
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .animated-btn {
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
 
+        .animated-btn:hover {
+            transform: scale(1.1); /* Slightly enlarges the button on hover */
+            background-color: #dc3545; /* Changes background color on hover */
+            color: #fff; /* Text color changes to white on hover */
+        }
+
+        .animated-btn:active {
+            transform: scale(0.95); /* Slightly shrinks the button when clicked */
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
@@ -25,10 +39,10 @@
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle">Hello, I am</h4>
-                <h1 class="header-title">Yogesh Manatkar</h1>
-                <h6 class="header-mono">Java Developer</h6>
-                <button class="btn btn-primary btn-rounded" onclick="downloadResume()">
-                    <i class="ti-printer pr-2"></i>Downlode Resume
+                <h1 class="header-title"><strong>Yogesh Manatkar</strong></h1>
+                <h6 class="header-mono"><strong>Java Developer</strong></h6>
+                <button class="btn btn-primary btn-rounded animated-btn" onclick="downloadResume()">
+                    <i class="ti-download pr-2"></i>Downlode Resume
                 </button>
             </div>
         </div>
@@ -83,8 +97,8 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">Java Developer</h5>
                 <p class="mt-20">A Java Developer with 2.9 years of experience in designing and implementing scalable software solutions, specializing in data-intensive Banking Application Development. Proficient in all phases of the SDLC, including requirements gathering, estimation, analysis, design, development, testing and deployment. Skilled in delivering high-quality solutions within the Banking and Financial Services domain.</p>
-                <button class="btn btn-outline-danger" onclick="downloadResume()">
-                    <i class="icon-down-circled2"></i> Download My CV
+                <button class="btn btn-primary btn-rounded animated-btn" onclick="downloadResume()">
+                    <i class="ti-download pr-2"></i>Downlode Resume
                 </button>
             </div>
             <div class="col-lg-4 about-card">
@@ -96,7 +110,7 @@
                         <span>Email</span> : 
                         <a href="mailto:yogeshmanatkar137@gmail.com">yogeshmanatkar137@gmail.com</a>
                     </li>
-                    <li><span>Phone</span> : +91- 7218194438</li>
+                    <li><span>Mobile No.</span> : <a href="tel:+917218194438">+91-7218194438</a></li>
                     <li><span>Birthdate</span> : 13/07/2000</li>
                     <li><span>Address</span> : Shegaon, Maharastra- 444203</li>
                 </ul>
@@ -118,7 +132,7 @@
                     <div class="col-1 text-danger pt-1"><i class="fa-solid fa-laptop-code icon-lg"></i>
                     </div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Develope Banking Application</h6>
+                        <h6>Banking Application Development</h6>
                         <p class="subtitle">Developed and deployed over 45 RESTful APIs from scratch using Java, Spring Boot, Hibernate, JPA and Hexagonal Architecture.
                         </br>Implementation of Java/J2EE-based client and server-side enterprise applications.
                         </p>
@@ -128,7 +142,7 @@
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="fa-solid fa-truck-fast icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Deliver On Time</h6>
+                        <h6>Deadline-Driven Delivery</h6>
                         <p class="subtitle">Contributed to multiple projects in the Financial Services Industry (FSI) domain, managed high performance, scalability and seamless integration and cutting down delivery timelines by 30% using GenAI.</p>
                         <hr>
                     </div>
@@ -136,7 +150,7 @@
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="fa-solid fa-cloud-upload-alt icon-lg"></i></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Deployment On K8</h6>
+                        <h6>Cloud & K8s Deployment</h6>
                         <p class="subtitle">Deployed Spring Batch on the K8s Cluster of BNL Bank using Jenkins pipelines and Kubernetes.</p>
                         <hr>
                     </div>
@@ -279,7 +293,7 @@
                             <i class="fa-solid fa-network-wiredfa-solid fa-network-wired text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Develop RESTful APIs</h5>
+                            <h5 class="mb-3 card-title text-dark">API Design & Development</h5>
                             <P class="subtitle">1.Developed and deployed over 45 RESTful APIs from scratch using Java, Spring Boot, Hibernate, JPA and Hexagonal Architecture. Proficient in MySQL database management and Agile methodologies.
                             </br>2.Implementation of Java/J2EE-based client and server-side enterprise applications.
                             </P></br>
@@ -292,7 +306,7 @@
                             <i class="fa-solid fa-chart-line text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Increase Efficiency </h5>
+                            <h5 class="mb-3 card-title text-dark">Optimizing API Efficiency</h5>
                             <P class="subtitle">1.Contributed to multiple projects in the Financial Services Industry (FSI) domain, managed high performance, scalability and seamless integration and cutting down delivery timelines by 30% using GenAI.
                                 </br>2.Performed JUnit and participated to enhancements and defect resolution to improve code quality and application performance.
                             </P>
@@ -305,10 +319,10 @@
                             <i class="fa-solid fa-clipboard-check text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Code Review</h5>
+                            <h5 class="mb-3 card-title text-dark">Code Review & Quality Assurance</h5>
                             <P class="subtitle">1.Participated in code reviews, successfully merged over 15 Merge Requests (MRs).
                             </br>2.Collaborated with the Onshore team on UI testing, identifying and resolving bugs and implemented minor fixes and conducted critical analysis of change requests & solved 1000+ defects & sonar bugs.
-                            </P></br>
+                            </P>
                         </div>
                     </div>
                 </div>
@@ -318,7 +332,7 @@
                             <i class="fa-solid fa-comments text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Full Client Support</h5>
+                            <h5 class="mb-3 card-title text-dark">End-to-End Client Support</h5>
                             <P class="subtitle">Provided full lifecycle support to clients from requirements gathering and analysis to design, coding, test, debugging, implementation and integration.</P>
                         </br></br></br></br>
                         </div>
@@ -330,7 +344,7 @@
                             <i class="fa-solid fa-clock text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Time Reduction</h5>
+                            <h5 class="mb-3 card-title text-dark">Time Optimization</h5>
                             <P class="subtitle">1.Reduced development time by 30% by creating a Gen AI prompt that auto-generated the Java files per API, allowing developers to focus on business logic instead of repetitive tasks.
                             </br>2.Implemented and Optimized Batches for real-world financial operations such as daily transaction batching, ensuring efficient handling of high-volume data with zero errors.   
                             </P>
@@ -343,10 +357,10 @@
                             <i class="fa-solid fa-university icon-lg text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Handle Banking transactions</h5>
+                            <h5 class="mb-3 card-title text-dark">Banking Transaction Management</h5>
                             <P class="subtitle">1.Developed a Spring Batch application to extract data from PostgreSQL & generate CSV file for BNL Bank, Italy.
                             </br>2.Optimized batch performance, processing over 3+ Lakh transactions daily, and improved performance and scalability using Java 8 features & Data Structures.
-                            </P></br>
+                            </P>
                         </div>
                     </div>
                 </div>
@@ -430,8 +444,12 @@
                             <div class="col-1 pt-1 mr-1">
                                 <i class="ti-mobile icon-md"></i>
                             </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+91- 7218194438</span></h6>
+                            <div class="col-10">
+                                <h6 class="d-inline">Phone : <br>
+                                    <span class="text-muted">
+                                        <a href="tel:+917218194438">7218194438</a>
+                                    </span>
+                                </h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -447,7 +465,11 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">yogeshmanatkar137@gmail.com</span></h6>
+                                <h6 class="d-inline">Email :<br> 
+                                    <span class="text-muted">
+                                      <a href="mailto:yogeshmanatkar137@gmail.com">yogeshmanatkar137@gmail.com</a>
+                                    </span>
+                                  </h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
